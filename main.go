@@ -25,5 +25,6 @@ func main() {
 	utils.ConsecutiveSum(num)
 	duration = time.Since(start)
 
+	fmt.Printf("The sum is %d\n", sum)
 	fmt.Printf("Synchronously, it took %fs\n", duration.Seconds())
 }
