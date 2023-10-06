@@ -13,6 +13,7 @@ func ConsecutiveSum(num int64) int64 {
 	return sum
 }
 
+// A concurrent function that leverages Goroutines to calculate the sum of consecutive integers concurrently.
 func ConsecutiveSumConcurrent(num int64) int64 {
 	if num < 1 {
 		return 0
